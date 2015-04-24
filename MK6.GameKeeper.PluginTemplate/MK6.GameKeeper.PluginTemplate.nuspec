@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MK6.GameKeeper.PluginTemplate</id>
+    <version>$version$</version>
+    <authors>Market6</authors>
+    <owners>Market6</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <description>Template for creating plugins to be run by MK6.GameKeeper</description>
+    <copyright>Copyright 2015</copyright>
+    <dependencies>
+      <dependency id="Serilog" version="1.5.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Program.cs" target="content" />
+    <file src="Service.cs" target="content" />
+    <file src="App.config" target="content" />
+  </files>
+</package>
